@@ -19,6 +19,11 @@ export const CharacterCard = (props) => {
 					Learn More
 				</span>
 			</Link>
+         <Link to ={{pathname:"/demo"+ props.person.name, state:props.person}}>
+				<span className="btn btn-primary btn-lg" href="#" role="button">
+					Favorites
+				</span>
+			</Link>
       </div>
       </div>
    );

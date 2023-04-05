@@ -16,6 +16,11 @@ export const PlanetCard = (props) => {
 					Learn More
 				</span>
 			</Link>
+			<Link to ={{pathname:"/demo"}}>
+				<span className="btn btn-primary btn-lg" href="#" role="button">
+					Favorites
+				</span>
+			</Link>
       </div>
     </div>
    );
